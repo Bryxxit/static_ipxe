@@ -21,7 +21,9 @@ To compile the iso you'll need to install some depedencies according to the offi
 
 ## Ussage
 The package should now be available under your gopath
+
 cd $GOPATH/bin
+
 ./static_ipxe create -n testy --initrd "/path/to/initd" --vmlinuz "/path/to/vmlinuz" --kickstarturl "url.org/kickstart" --netmask 255.255.255.0 --ip 10.10.10.10 --gateway 10.10.10.1
 
 Your result should be a:
