@@ -15,8 +15,8 @@ limitations under the License.
 */
 package main
 
-import "static_ipxe/cmd"
+import "github.com/Bryxxit/static_ipxe/cmd"
 
 func main() {
-  cmd.Execute()
+	cmd.Execute()
 }
